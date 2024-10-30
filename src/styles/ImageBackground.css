@@ -1,0 +1,17 @@
+.image-background {
+  background-image: url('../resources/background.jpg'); /* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.image-background > * {
+  position: relative;
+  z-index: 1;
+}
